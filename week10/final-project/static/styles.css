@@ -1,0 +1,4 @@
+body { background-color: #f6f8f6; }
+.card { border-radius: 0.75rem; }
+.amount-income { color: #198754; font-weight: 600; }
+.amount-expense { color: #dc3545; font-weight: 600; }

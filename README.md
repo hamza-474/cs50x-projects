@@ -47,6 +47,7 @@ CS50x is Harvard University introduction to computer science and the art of prog
 | 8 | Homepage (index.html, about.html, projects.html, contact.html) | A personal website about Hamza Madni, built with HTML, CSS, JavaScript, and Bootstrap - [live demo](https://hamza-474.github.io/cs50x-projects/week8/homepage/) | Submitted |
 | 9 | Birthdays (app.py) | A Flask and SQLite web app that lists birthdays from a database and adds new ones through a form | Submitted |
 | 9 | Finance (app.py) | A Flask stock-trading web app with register, login, quote, buy, sell, portfolio and history, plus an Add Cash personal touch | Submitted |
+| 10 | Final Project - Kharcha: Personal Expense Tracker (app.py) | A Flask and SQLite personal expense tracker with register, login, income and expense entries, running balance, category totals and monthly summary | Submitted — video pending |
 
 ## Structure
 
@@ -79,6 +80,7 @@ CS50x is Harvard University introduction to computer science and the art of prog
 - week8/homepage/ - Personal homepage: index.html, about.html, projects.html, contact.html, styles.css, script.js, specification.txt
 - week9/birthdays/ - Birthdays: app.py, templates/index.html, static/styles.css
 - week9/finance/ - Finance: app.py, helpers.py, requirements.txt, templates/, static/
+- week10/final-project/ - **Kharcha: Personal Expense Tracker**: app.py, README.md, requirements.txt, templates/, static/
 
 
 ## How to run

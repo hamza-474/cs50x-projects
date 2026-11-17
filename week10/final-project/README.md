@@ -1,0 +1,32 @@
+# Kharcha: Personal Expense Tracker
+
+#### Video Demo: VIDEO_URL_PENDING
+
+#### Description:
+
+Kharcha is a personal expense tracker web application that I built as my CS50x final project. The name comes from the Urdu word kharcha, meaning expense, and the app answers a simple, everyday question: where did my money go this month? Many people know their salary or their total bank balance, but they cannot say how much they spent on food, transport, or shopping, or whether they spent more than they earned. Kharcha gives each user a private place to record income and expenses, see a running balance at a glance, break spending down by category, and review a monthly summary, so that a household budget becomes a habit rather than a guess.
+
+The app is a Flask web application with a SQLite database, written in Python, HTML, and CSS, and styled with Bootstrap. A visitor first creates an account with a username and a password. Passwords are never stored in plain text; they are stored only as salted hashes created with Werkzeug, and a user can log in and log out using Flask sessions. Each account is private: every database query for entries filters by the logged-in user, so one user can never see, edit, or delete another user's entries. Pages that show personal data are protected by a login_required decorator, and a visitor who is not logged in is sent to the login page.
+
+Once logged in, the user lands on a dashboard. At the top, three cards show total income, total expenses, and the running balance, which is income minus expenses. Below them, a table of totals by category shows, for example, how much was spent on Food or Transport and how much income came from Salary, together with the number of entries in each group. Next to it, a monthly summary groups entries by month, in year-month form, and shows income, expenses, and the net amount for each of the most recent six months. Under those summaries, the dashboard lists every entry, newest first, with its date, type, category, note, and amount, with income shown in green with a plus sign and expenses shown in red with a minus sign.
+
+Adding an entry is deliberately quick, because a tracker that is slow to use will not be used. From the dashboard or the navigation bar, the user opens the Add entry form and chooses income or expense, enters an amount greater than zero, picks a category from a list that includes Food, Transport, Rent, Utilities, Shopping, Entertainment, Health, Education, Salary, Freelance, and Other, adds an optional short note such as Groceries at the market, and picks a date, which defaults to today. The server checks the submission again, even though the form also checks it in the browser: the type must be income or expense, the amount must be a positive number, and the date must be a real date that is not in the future. A bad submission shows a clear message and does not save anything. A good submission is saved in the database and the user is returned to the dashboard, where the totals and the balance have already changed.
+Deleting an entry is just as simple, and just as careful. Each row on the dashboard has a Delete button, which sends a POST request, not a plain link, so that an entry cannot be removed by following a link. The server deletes only a row that belongs to the logged-in user, by matching both the entry id and the user id, and reports whether an entry was deleted or was not found. Logging out clears the session completely, so the next person on a shared computer cannot open the previous user's dashboard by pressing the back button or by typing the address.
+
+I chose Flask and SQLite because they keep the project small, clear, and easy to run, which was the point of the exercise: I wanted to show what I learned in CS50x, not hide it behind a large framework. I used Python's standard sqlite3 module, rather than the CS50 SQL library, so that the database code is explicit and portable. The database has only two tables: users, with an id, a unique username, and a password hash, and entries, with an id, a user id that refers to users, a kind that must be income or expense, an amount that must be greater than zero, a category, a note, and a date. The schema is created automatically when the app starts, in a function called init_db, so a fresh copy of the project works at once and no database file needs to be committed. Amounts are stored as numbers rounded to two decimal places, dates are stored in year-month-day form so that they sort correctly, and the monthly summary is built with a database grouping by year and month, rather than by loading every row and sorting it in Python.
+
+The interface uses Bootstrap from a content delivery network, with a small custom stylesheet for the page background, card corners, and the green and red colours used for income and expense amounts. I kept the design to one shared layout template, so that the navigation bar, flash messages, and footer are the same on every page, and each other page only fills in its own content. That is why the app is easy to change: adding a category means changing one list in app.py, and changing the look means changing one layout file. I tested the app end to end in the Codespace by running it with flask run, registering a test user, adding income and expense entries, checking that the totals, category totals, monthly summary, and running balance were correct, deleting an entry and checking that the totals changed, and logging out and logging back in.
+
+## Files
+
+- app.py: the whole Flask application - routes, login protection, validation, and the SQLite schema created at startup.
+- templates/layout.html: shared Bootstrap layout, navigation bar, and flash messages.
+- templates/index.html: dashboard with totals, category totals, monthly summary, and the entry list with Delete buttons.
+- templates/register.html, templates/login.html, templates/add.html: forms for registering, logging in, and adding an entry.
+- static/styles.css: small custom styles on top of Bootstrap.
+- requirements.txt: Flask, the only dependency.
+- .gitignore: keeps kharcha.db and Python cache files out of version control.
+
+## How to run
+
+Install the dependency with pip install -r requirements.txt, then run flask run from inside the project folder and open the address shown in the terminal. The database file kharcha.db is created automatically on the first run. No test data is included.
