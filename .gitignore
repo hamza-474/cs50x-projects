@@ -1,0 +1,17 @@
+# Compiled C programs and object files
+*.o
+*.out
+week1/hello/hello
+week1/mario-more/mario
+week1/credit/credit
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Archives and logs
+*.zip
+*.log
