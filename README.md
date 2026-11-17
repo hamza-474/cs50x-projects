@@ -26,6 +26,9 @@ CS50x is Harvard University introduction to computer science and the art of prog
 | 2 | Readability (readability.c) | Computes a text reading grade with the Coleman-Liau index | Submitted |
 | 2 | Caesar (caesar.c) | Encrypts plaintext with a Caesar cipher key | Submitted |
 | 2 | Substitution (substitution.c) | Encrypts plaintext with a 26-letter substitution key | Submitted |
+| 3 | Sort (answers.txt) | Identifies three sorting algorithms by timing them on sorted, reversed and random inputs | Submitted |
+| 3 | Plurality (plurality.c) | Runs a plurality election and prints the candidate with the most votes | Submitted |
+| 3 | Tideman (tideman.c) | Runs a Tideman election, locking ranked pairs without creating cycles | Submitted |
 
 ## Structure
 
@@ -37,6 +40,9 @@ CS50x is Harvard University introduction to computer science and the art of prog
 - week2/readability/readability.c — Week 2 Readability
 - week2/caesar/caesar.c — Week 2 Caesar
 - week2/substitution/substitution.c — Week 2 Substitution
+- week3/sort/answers.txt — Week 3 Sort lab
+- week3/plurality/plurality.c — Week 3 Plurality
+- week3/tideman/tideman.c — Week 3 Tideman
 
 
 ## How to run
@@ -58,5 +64,5 @@ To open the Scratch project, open week0/star-catcher.sb3 in Scratch at scratch.m
 
 ## Notes
 
-No live demo is included: Weeks 0-2 are a Scratch game and command-line C programs, which are normally shared as code and a README. A live demo will be added if a later week produces a web project.
+No live demo is included: Weeks 0-3 are a Scratch game and command-line C programs, which are normally shared as code and a README. A live demo will be added if a later week produces a web project.
 

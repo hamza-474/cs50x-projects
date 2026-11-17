@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: Sorted 50000 numbers in about 20 ms, but reversed 50000 took about 5.5 seconds and random 50000 about 6 seconds, so it is fast only on an already sorted list and quadratic otherwise.
+
+sort2 uses: merge sort
+
+How do you know?: Sorted, reversed, and random 50000 numbers all took only about 20 to 40 ms, far faster than the other two sorts on large inputs, as expected for an O(n log n) sort.
+
+sort3 uses: selection sort
+
+How do you know?: Sorted, reversed, and random 50000 numbers all took about 2.2 seconds, so its time does not depend on the input order, as expected for selection sort, which always scans the unsorted part.
