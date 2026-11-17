@@ -43,6 +43,8 @@ CS50x is Harvard University introduction to computer science and the art of prog
 | 7 | Songs (1.sql-8.sql, answers.txt) | Queries the Spotify songs database and reflects on its audio aura | Submitted |
 | 7 | Movies (1.sql-13.sql) | Queries the IMDb movies database about titles, people, ratings and stars | Submitted |
 | 7 | Fiftyville (log.sql) | Investigates the Fiftyville theft and identifies the thief, city and accomplice | Submitted |
+| 8 | Trivia (index.html) | A trivia web page with a multiple-choice and a free-response question, with JavaScript feedback | Submitted |
+| 8 | Homepage (index.html, about.html, projects.html, contact.html) | A personal website about Hamza Madni, built with HTML, CSS, JavaScript, and Bootstrap - [live demo](https://hamza-474.github.io/cs50x-projects/week8/homepage/) | Submitted |
 
 ## Structure
 
@@ -71,6 +73,8 @@ CS50x is Harvard University introduction to computer science and the art of prog
 - week7/songs/1.sql - Week 7 Songs lab (1.sql-8.sql, answers.txt)
 - week7/movies/1.sql - Week 7 Movies (1.sql-13.sql)
 - week7/fiftyville/log.sql - Week 7 Fiftyville
+- week8/trivia/ - Trivia lab: index.html, styles.css
+- week8/homepage/ - Personal homepage: index.html, about.html, projects.html, contact.html, styles.css, script.js, specification.txt
 
 
 ## How to run
@@ -92,5 +96,5 @@ To open the Scratch project, open week0/star-catcher.sb3 in Scratch at scratch.m
 
 ## Notes
 
-No live demo is included: Weeks 0-4 are a Scratch game and command-line C programs, which are normally shared as code and a README. A live demo will be added if a later week produces a web project.
+Live demo: the Week 8 homepage is published with GitHub Pages at https://hamza-474.github.io/cs50x-projects/week8/homepage/ and the Trivia page at https://hamza-474.github.io/cs50x-projects/week8/trivia/.
 
