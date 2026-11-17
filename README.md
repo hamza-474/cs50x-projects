@@ -32,6 +32,8 @@ CS50x is Harvard University introduction to computer science and the art of prog
 | 4 | Volume (volume.c) | Scales the volume of a WAV file by a factor | Submitted |
 | 4 | Filter, more comfortable (helpers.c, filter.c) | Applies grayscale, reflect, blur and edge detection to BMP images | Submitted |
 | 4 | Recover (recover.c) | Recovers JPEGs from a forensic image of a memory card | Submitted |
+| 5 | Inheritance (inheritance.c) | Simulates blood-type inheritance across three generations | Submitted |
+| 5 | Speller (dictionary.c) | Spell-checks text using a hash table dictionary | Submitted |
 
 ## Structure
 
@@ -49,6 +51,8 @@ CS50x is Harvard University introduction to computer science and the art of prog
 - week4/volume/volume.c — Week 4 Volume
 - week4/filter-more/helpers.c, filter.c — Week 4 Filter, more comfortable
 - week4/recover/recover.c — Week 4 Recover
+- week5/inheritance/inheritance.c — Week 5 Inheritance
+- week5/speller/dictionary.c — Week 5 Speller
 
 
 ## How to run
