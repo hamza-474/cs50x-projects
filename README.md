@@ -34,6 +34,12 @@ CS50x is Harvard University introduction to computer science and the art of prog
 | 4 | Recover (recover.c) | Recovers JPEGs from a forensic image of a memory card | Submitted |
 | 5 | Inheritance (inheritance.c) | Simulates blood-type inheritance across three generations | Submitted |
 | 5 | Speller (dictionary.c) | Spell-checks text using a hash table dictionary | Submitted |
+| 6 | World Cup (tournament.py) | Simulates FIFA World Cup tournaments and prints the chance of winning for each team | Submitted |
+| 6 | Hello (hello.py) | Asks for a name and prints a greeting | Submitted |
+| 6 | Mario, more comfortable (mario.py) | Prints adjacent double pyramids of hashes | Submitted |
+| 6 | Credit (credit.py) | Validates card numbers with the Luhn algorithm | Submitted |
+| 6 | Readability (readability.py) | Computes a text reading grade with the Coleman-Liau index | Submitted |
+| 6 | DNA (dna.py) | Identifies a person from DNA by counting STRs | Submitted |
 
 ## Structure
 
@@ -53,6 +59,12 @@ CS50x is Harvard University introduction to computer science and the art of prog
 - week4/recover/recover.c — Week 4 Recover
 - week5/inheritance/inheritance.c — Week 5 Inheritance
 - week5/speller/dictionary.c — Week 5 Speller
+- week6/world-cup/tournament.py — Week 6 World Cup
+- week6/hello/hello.py — Week 6 Hello
+- week6/mario-more/mario.py — Week 6 Mario, more comfortable
+- week6/credit/credit.py — Week 6 Credit
+- week6/readability/readability.py — Week 6 Readability
+- week6/dna/dna.py — Week 6 DNA
 
 
 ## How to run
