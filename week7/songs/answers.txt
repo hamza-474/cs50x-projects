@@ -1,0 +1,4 @@
+The average energy of the 100 songs in songs.db is about 0.66, with average danceability about 0.72 and average valence about 0.48.
+I would characterize this listener audio aura as moderately energetic and fairly danceable, but emotionally mixed rather than purely happy or euphoric.
+The songs are upbeat enough to move to, yet the valence near 0.48 suggests a balance of brighter and more reflective or melancholic moods.
+For comparison, Drake songs in the collection average about 0.60 in energy, slightly below the overall average of 0.66.

@@ -40,6 +40,9 @@ CS50x is Harvard University introduction to computer science and the art of prog
 | 6 | Credit (credit.py) | Validates card numbers with the Luhn algorithm | Submitted |
 | 6 | Readability (readability.py) | Computes a text reading grade with the Coleman-Liau index | Submitted |
 | 6 | DNA (dna.py) | Identifies a person from DNA by counting STRs | Submitted |
+| 7 | Songs (1.sql-8.sql, answers.txt) | Queries the Spotify songs database and reflects on its audio aura | Submitted |
+| 7 | Movies (1.sql-13.sql) | Queries the IMDb movies database about titles, people, ratings and stars | Submitted |
+| 7 | Fiftyville (log.sql) | Investigates the Fiftyville theft and identifies the thief, city and accomplice | Submitted |
 
 ## Structure
 
@@ -65,6 +68,9 @@ CS50x is Harvard University introduction to computer science and the art of prog
 - week6/credit/credit.py — Week 6 Credit
 - week6/readability/readability.py — Week 6 Readability
 - week6/dna/dna.py — Week 6 DNA
+- week7/songs/1.sql - Week 7 Songs lab (1.sql-8.sql, answers.txt)
+- week7/movies/1.sql - Week 7 Movies (1.sql-13.sql)
+- week7/fiftyville/log.sql - Week 7 Fiftyville
 
 
 ## How to run
