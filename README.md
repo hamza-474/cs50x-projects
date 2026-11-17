@@ -45,6 +45,8 @@ CS50x is Harvard University introduction to computer science and the art of prog
 | 7 | Fiftyville (log.sql) | Investigates the Fiftyville theft and identifies the thief, city and accomplice | Submitted |
 | 8 | Trivia (index.html) | A trivia web page with a multiple-choice and a free-response question, with JavaScript feedback | Submitted |
 | 8 | Homepage (index.html, about.html, projects.html, contact.html) | A personal website about Hamza Madni, built with HTML, CSS, JavaScript, and Bootstrap - [live demo](https://hamza-474.github.io/cs50x-projects/week8/homepage/) | Submitted |
+| 9 | Birthdays (app.py) | A Flask and SQLite web app that lists birthdays from a database and adds new ones through a form | Submitted |
+| 9 | Finance (app.py) | A Flask stock-trading web app with register, login, quote, buy, sell, portfolio and history, plus an Add Cash personal touch | Submitted |
 
 ## Structure
 
@@ -75,6 +77,8 @@ CS50x is Harvard University introduction to computer science and the art of prog
 - week7/fiftyville/log.sql - Week 7 Fiftyville
 - week8/trivia/ - Trivia lab: index.html, styles.css
 - week8/homepage/ - Personal homepage: index.html, about.html, projects.html, contact.html, styles.css, script.js, specification.txt
+- week9/birthdays/ - Birthdays: app.py, templates/index.html, static/styles.css
+- week9/finance/ - Finance: app.py, helpers.py, requirements.txt, templates/, static/
 
 
 ## How to run
@@ -97,4 +101,6 @@ To open the Scratch project, open week0/star-catcher.sb3 in Scratch at scratch.m
 ## Notes
 
 Live demo: the Week 8 homepage is published with GitHub Pages at https://hamza-474.github.io/cs50x-projects/week8/homepage/ and the Trivia page at https://hamza-474.github.io/cs50x-projects/week8/trivia/.
+
+Week 9 has no static live demo: the Birthdays and Finance apps are server-side Flask apps that need a running Python server and a database, so they cannot be served as static pages.
 
