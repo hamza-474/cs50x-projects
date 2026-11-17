@@ -1,6 +1,6 @@
 # Kharcha: Personal Expense Tracker
 
-#### Video Demo: VIDEO_URL_PENDING
+#### Video Demo: https://youtu.be/-TVhZ_8_5Zs
 
 #### Description:
 
