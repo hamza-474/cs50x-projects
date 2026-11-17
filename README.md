@@ -29,6 +29,9 @@ CS50x is Harvard University introduction to computer science and the art of prog
 | 3 | Sort (answers.txt) | Identifies three sorting algorithms by timing them on sorted, reversed and random inputs | Submitted |
 | 3 | Plurality (plurality.c) | Runs a plurality election and prints the candidate with the most votes | Submitted |
 | 3 | Tideman (tideman.c) | Runs a Tideman election, locking ranked pairs without creating cycles | Submitted |
+| 4 | Volume (volume.c) | Scales the volume of a WAV file by a factor | Submitted |
+| 4 | Filter, more comfortable (helpers.c, filter.c) | Applies grayscale, reflect, blur and edge detection to BMP images | Submitted |
+| 4 | Recover (recover.c) | Recovers JPEGs from a forensic image of a memory card | Submitted |
 
 ## Structure
 
@@ -43,6 +46,9 @@ CS50x is Harvard University introduction to computer science and the art of prog
 - week3/sort/answers.txt — Week 3 Sort lab
 - week3/plurality/plurality.c — Week 3 Plurality
 - week3/tideman/tideman.c — Week 3 Tideman
+- week4/volume/volume.c — Week 4 Volume
+- week4/filter-more/helpers.c, filter.c — Week 4 Filter, more comfortable
+- week4/recover/recover.c — Week 4 Recover
 
 
 ## How to run
@@ -64,5 +70,5 @@ To open the Scratch project, open week0/star-catcher.sb3 in Scratch at scratch.m
 
 ## Notes
 
-No live demo is included: Weeks 0-3 are a Scratch game and command-line C programs, which are normally shared as code and a README. A live demo will be added if a later week produces a web project.
+No live demo is included: Weeks 0-4 are a Scratch game and command-line C programs, which are normally shared as code and a README. A live demo will be added if a later week produces a web project.
 
